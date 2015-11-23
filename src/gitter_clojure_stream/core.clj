@@ -1,11 +1,11 @@
 (ns gitter-clojure-stream.core
   {:author "Yen-Chin, Lee"
-   :doc " Gitter Stream API example client for Clojure"}
+   :doc "Gitter Stream API example client for Clojure"}
   (:require [http.async.client :as http]
             [clojure.data.json :as json]))
 
 (def api-key (System/getenv "TOKEN"))
-(def room-id  (System/getenv "ROOM_ID"))
+(def room-id (System/getenv "ROOM_ID"))
 
 (defn -main
   [& args]
@@ -16,4 +16,5 @@
                                 :timeout -1)]
       (doseq [s (http/string resp)]
         (when-not (clojure.string/blank? s)
-          (println (str (json/read-str s :key-fn keyword))))))))
+          (println (str (json/read-str s :key-fn keyword)))
+          )))))
