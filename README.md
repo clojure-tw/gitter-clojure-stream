@@ -1,14 +1,19 @@
 # gitter-clojure-stream
+[![Build Status](https://travis-ci.org/clojure-tw/gitter-clojure-stream.svg?branch=master)](https://travis-ci.org/clojure-tw/gitter-clojure-stream)
+[![License](http://img.shields.io/badge/license-Eclipse-blue.svg?style=flat)](https://www.eclipse.org/legal/epl-v10.html)
 
-A Clojure library designed to ... well, that part is up to you.
+Gitter Stream API example client for clojure.
+
+You'll need an oAuth token from [developer.gitter.im](https://developer.gitter.im/) and a [Room ID](https://developer.gitter.im/docs/rooms-resource).
 
 ## Usage
 
-FIXME
+Run with:
+
+    TOKEN="<token>" ROOM_ID="<room_id>" lein run
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Yen-Chin, Lee <<coldnew.tw@gmail.com>>
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or any later version.
