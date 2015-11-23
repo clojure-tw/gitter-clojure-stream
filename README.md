@@ -7,9 +7,9 @@ You'll need an oAuth token from [developer.gitter.im](https://developer.gitter.i
 ## Usage
 
 Run with:
-
+```sh
     TOKEN="<token>" ROOM_ID="<room_id>" lein run
-
+```
 ## License
 
 Copyright © 2015 Yen-Chin, Lee <<coldnew.tw@gmail.com>>
