@@ -1,8 +1,6 @@
-# gitter-clojure-stream
+# Gitter Stream API example client for Clojure.
 [![Build Status](https://travis-ci.org/clojure-tw/gitter-clojure-stream.svg?branch=master)](https://travis-ci.org/clojure-tw/gitter-clojure-stream)
 [![License](http://img.shields.io/badge/license-Eclipse-blue.svg?style=flat)](https://www.eclipse.org/legal/epl-v10.html)
-
-Gitter Stream API example client for clojure.
 
 You'll need an oAuth token from [developer.gitter.im](https://developer.gitter.im/) and a [Room ID](https://developer.gitter.im/docs/rooms-resource).
 
