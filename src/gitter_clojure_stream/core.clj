@@ -7,8 +7,7 @@
 (def api-key (System/getenv "TOKEN"))
 (def room-id (System/getenv "ROOM_ID"))
 
-(defn -main
-  [& args]
+(defn -main [& args]
   (with-open [conn (http/create-client)]
     (let [resp (http/stream-seq conn
                                 :get (str "https://stream.gitter.im/v1/rooms/" room-id "/chatMessages")
